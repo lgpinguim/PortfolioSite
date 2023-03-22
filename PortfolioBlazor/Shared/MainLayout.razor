@@ -1,0 +1,33 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+<style>
+    :root {
+        --primary-color: #4c4c4c;
+        --secondary-color: #5c5c5c;
+        --tertiary-color: #e6e6e6;
+        --text-color: #e6e6e6;
+        --background-color: #1c1c1c;
+    }
+
+    body {
+        color: var(--text-color);
+        background-color: var(--background-color);
+    }
+
+    .navbar {
+        background-color: var(--secondary-color);
+        color: var(--tertiary-color);
+    }
+</style>
