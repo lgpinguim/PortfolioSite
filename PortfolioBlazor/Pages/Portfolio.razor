@@ -2,38 +2,105 @@
 
 <h1>Portfolio</h1>
 
-<h2>Unreal Engine Projects</h2>
-<ul>
-    <li>
-        <h3>Project 1</h3>
-        <p>Description of project 1 goes here.</p>
-    </li>
-    <li>
-        <h3>Project 2</h3>
-        <p>Description of project 2 goes here.</p>
-    </li>
-</ul>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zamfkAnvrVY"></iframe>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Title of Project</h3>
+                <p class="card-text">Description of Project</p>
+                <a href="https://www.downloadlink.com" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID_HERE"></iframe>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Title of Project</h3>
+                <p class="card-text">Description of Project</p>
+                <a href="https://www.downloadlink.com" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID_HERE"></iframe>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Title of Project</h3>
+                <p class="card-text">Description of Project</p>
+                <a href="https://www.downloadlink.com" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID_HERE"></iframe>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Title of Project</h3>
+                <p class="card-text">Description of Project</p>
+                <a href="https://www.downloadlink.com" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID_HERE"></iframe>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Title of Project</h3>
+                <p class="card-text">Description of Project</p>
+                <a href="https://www.downloadlink.com" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+    </div>
+</div>
 
-<h2>C++ Projects</h2>
-<ul>
-    <li>
-        <h3>Project 1</h3>
-        <p>Description of project 1 goes here.</p>
-    </li>
-    <li>
-        <h3>Project 2</h3>
-        <p>Description of project 2 goes here.</p>
-    </li>
-</ul>
+<style>
+    .card {
+        border: none;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        background-color: #212121;
+        color: #fff;
+    }
 
-<h2>C# Projects</h2>
-<ul>
-    <li>
-        <h3>Project 1</h3>
-        <p>Description of project 1 goes here.</p>
-    </li>
-    <li>
-        <h3>Project 2</h3>
-        <p>Description of project 2 goes here.</p>
-    </li>
-</ul>
+    .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 10px rgba(255, 255, 255, 0.2);
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .embed-responsive-16by9 {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+    }
+
+    .embed-responsive-16by9 iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
